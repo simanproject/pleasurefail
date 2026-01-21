@@ -1,127 +1,95 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="id">
 <head>
-<meta charset="utf-8">
-<meta name="author" content="">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">	
-<meta property="og:type" content="website" />
-<meta property="og:title" content="PB Indonesia" />
-<meta property="og:url" content="http://www.pointblank.id/" />
-<meta property="og:description" content="Game FPS Favorite sejak 2009, Point Blank Beyond Limit adalah game FPS No. 1 Indonesia selama 10 tahun. Dimainkan di 100 negara dan memiliki 100 juta player dunia." />
-<meta property="og:image" content="http://www.pointblank.id/images/common/og_img.png" />
-<meta name="keywords" content="pb point blank , FPS, online, olinegsme, game point blank ,point blank, game pb, pb game, point blank garena, point pb, garena pb" />
-<meta name="description" content="Game FPS Favorite sejak 2009, Point Blank Beyond Limit adalah game FPS No. 1 Indonesia selama 10 tahun. Dimainkan di 100 negara dan memiliki 100 juta player dunia." />
-<title>RTB Private Indonesia</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/styles.css?ver=17368740">
-	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/launcher.js"></script>
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-<script type="text/javascript">
-function keyEvent() {
-	if(event.ctrlKey) {
-		return false;
-	}
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pleasure Fail - Official Store</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'sans-serif'; }
+        body, html { height: 100%; background: #000; overflow: hidden; }
 
-document.onkeydown = keyEvent;
-document.oncontextmenu = document.ondragstart = document.onselectstart = new Function("return false");
-</script>
+        .swiper { width: 100%; height: 100vh; }
+
+        /* SLIDE 1: INTRO */
+        .slide-intro {
+            background: radial-gradient(circle, #1a1a1a 0%, #000 100%);
+            display: flex; justify-content: center; align-items: center;
+            color: white; text-align: center;
+        }
+        .logo-large {
+            width: 120px; height: 120px; margin-bottom: 20px;
+            filter: drop-shadow(0 0 15px rgba(138, 43, 226, 0.8));
+        }
+        .brand-name { letter-spacing: 5px; font-size: 1.5rem; }
+        .hint { color: #555; margin-top: 40px; font-size: 0.8rem; animation: blink 2s infinite; }
+
+        /* SLIDE 2: LINKS */
+        .slide-links {
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
+                        url('https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');
+            background-size: cover; background-position: center;
+            display: flex; justify-content: center; align-items: center;
+        }
+        .container { width: 100%; max-width: 350px; text-align: center; padding: 20px; z-index: 10; }
+        .logo-small { width: 60px; border-radius: 50%; border: 2px solid #8a2be2; padding: 5px; margin-bottom: 10px; }
+        
+        .links { display: flex; flex-direction: column; gap: 15px; margin-top: 20px; }
+        .btn {
+            text-decoration: none; color: white; padding: 15px; border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px); font-weight: bold; transition: 0.3s;
+        }
+        .btn-purple { border-left: 5px solid #8a2be2; }
+        .btn-blue { border-left: 5px solid #00d2ff; }
+        .btn:active { transform: scale(0.95); background: rgba(255,255,255,0.1); }
+
+        .footer-btn {
+            margin-top: 30px; display: inline-block; text-decoration: none;
+            background: linear-gradient(45deg, #8a2be2, #00d2ff);
+            color: white; padding: 12px 30px; border-radius: 50px; font-weight: bold;
+        }
+
+        @keyframes blink { 0%, 100% { opacity: 0.3; } 50% { opacity: 1; } }
+    </style>
 </head>
 <body>
-	<section class="launcher" style="background-image: url('https://cdn2.pointblank.id/Web/upload/image/20250204/202709186.jpg');">
-		<article class="webArea">
-			<div class="top">
-				<ul class="sns">
-					<li class="discord"><a href="#" target="_blank"></a></li>
-					<li class="tiktok"><a href="#" target="_blank"></a></li>
-				</ul>
-				<ul class="groupBtn">
-					<li class="home"><a href="https://www.pointblank.id" target="_blank"></a></li>
-					<li class="user"><a href="https://www.pointblank.id/mypage/info" target="_blank"></a></li>
-					<li class="cash"><a href="https://topup.pointblank.id" target="_blank"></a></li>
-				</ul>
-			</div>
-			<div class="banner">
-				<div class="banner_1">
-					<ul class="gallery">
-						<li><a href="#" target="_blank"><img src="https://cdn2.pointblank.id/Web/upload/image/20250421/174859920.jpg" alt=""></a></li>
-						<!--<li><a href="#" target="_blank"><img src="https://cdn2.pointblank.id/Web/upload/image/20250407/174431897.jpg" alt=""></a></li>-->
-						<!--<li><a href="#" target="_blank"><img src="https://cdn2.pointblank.id/Web/upload/image/20250421/171123178.jpg" alt=""></a></li>-->
-						<!--<li><a href="#" target="_blank"><img src="https://cdn2.pointblank.id/Web/upload/image/20250407/174604951.jpg" alt=""></a></li>-->
-						<!--<li><a href="https://pointblank.id/news/view?idx=6011&page=1" target="_blank"><img src="https://cdn2.pointblank.id/Web/upload/image/20250421/174859920.jpg" alt=""></a></li>-->
-						<!--<li><a href="https://pointblank.id/news/view?idx=6032&page=1" target="_blank"><img src="https://cdn2.pointblank.id/Web/upload/image/20250421/174859920.jpg" alt=""></a></li>-->
-						<!--<li><a href="#" target="_blank"><img src="https://cdn2.pointblank.id/Web/upload/image/20210908/79f19c1426725a513333c9570671e290a9c41aa41a5811192a759f84b0f7f43c.jpg" alt=""></a></li>-->
-					</ul>
-					<ul class="controller">
-						<li class=""><a href="javascript:void(0);"></a></li>
-						<!--<li class=""><a href="javascript:void(0);"></a></li>-->
-						<!--<li class=""><a href="javascript:void(0);"></a></li>-->
-						<!--<li class=""><a href="javascript:void(0);"></a></li>-->
-						<!--<li class=""><a href="javascript:void(0);"></a></li>-->
-						<!--<li class=""><a href="javascript:void(0);"></a></li>-->
-						<!--<li class=""><a href="javascript:void(0);"></a></li>-->
-					</ul>
-				</div>
-				<div class="notice">
-					<ul class="list">
-						<li>
-							<p class="tit">
-								<a href="#" target="_blank">
-									<span class="sort patch">Info</span> RTB Release
-								</a>
-							</p>
-							<p class="date">01.April.2025</p>
-						</li>
-						<li>
-							<p class="tit">
-								<a href="https://rolltoback.web.id/index.php/register" target="_blank">
-									<span class="sort patch">Info</span> Register
-								</a>
-							</p>
-							<p class="date"></p>
-						</li>
-						<!--<li>-->
-						<!--	<p class="tit">-->
-						<!--		<a href="#" target="_blank">-->
-						<!--			<span class="sort patch">News</span> PBIC 2025 International Pass : The A.C.E-->
-						<!--		</a>-->
-						<!--	</p>-->
-						<!--	<p class="date">10.Feb.2025</p>-->
-						<!--</li>-->
-						<!--<li>-->
-						<!--	<p class="tit">-->
-						<!--		<a href="#" target="_blank">-->
-						<!--			<span class="sort patch">News</span> PBIC 2025 Token Shop-->
-						<!--		</a>-->
-						<!--	</p>-->
-						<!--	<p class="date">20.Jan.2025</p>-->
-						<!--</li>-->
-						<!--<li>-->
-						<!--	<p class="tit">-->
-						<!--		<a href="#" target="_blank">-->
-						<!--			<span class="sort patch">News</span> MARCH 2025 VIP LICENSE-->
-						<!--		</a>-->
-						<!--	</p>-->
-						<!--	<p class="date">04.Mar.2025</p>-->
-						<!--</li>													-->
-					</ul>
-					<div class="banner_2">
-						<a href="https://pointblank.id/news/view?idx=6011&page=1" target="_blank"><img src="https://cdn2.pointblank.id/Web/upload/image/20250211/134322540.jpg" alt=""></a>
-					</div>
-					<div class="banner_2">
-						<a href="https://pointblank.id/news/view?idx=6011&page=1" target="_blank"><img src="https://cdn2.pointblank.id/Web/upload/image/20250211/134322540.jpg" alt=""></a>
-					</div>
-				</div>
-			</div>
-			<div class="bottom">
-				 <img src="assets/img/rtb_bot.png" alt="Point Blank beyond Limits"> 
-				<!--<img src="/images/common/launcher/pb_bi_regacy.png" alt="Point Blank beyond Limits">-->
-			</div>
-		</article>
-	</section>
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide-intro">
+                <div>
+                    <img src="https://cdn-icons-png.flaticon.com/512/1041/1041837.png" class="logo-large">
+                    <h1 class="brand-name">PLEASURE FAIL</h1>
+                    <p class="hint">SWIPE KE KIRI <i class="fas fa-arrow-right"></i></p>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide-links">
+                <div class="container">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1041/1041837.png" class="logo-small">
+                    <h3 style="color:white; letter-spacing:2px;">@PLEASURE_FAIL</h3>
+                    
+                    <div class="links">
+                        <a href="#" class="btn btn-purple">NEW ARRIVALS</a>
+                        <a href="#" class="btn btn-blue">CATALOG T-SHIRT</a>
+                        <a href="#" class="btn btn-blue">ORDER VIA WHATSAPP</a>
+                        <a href="#" class="btn btn-purple">SHOPEE / TOKOPEDIA</a>
+                    </div>
+
+                    <a href="#" class="footer-btn"><i class="fas fa-shopping-cart"></i> PRE-ORDER NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper', {
+            mousewheel: true,
+        });
+    </script>
 </body>
 </html>
